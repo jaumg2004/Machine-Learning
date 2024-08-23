@@ -5,7 +5,7 @@ import statsmodels.formula.api as sm
 from scipy import stats
 import seaborn as sns
 
-base = pd.read_csv(r'C:\Users\Jaum\Desktop\download\download\3.Algoritmos de Machine Learning\mt_cars.csv')
+base = pd.read_csv('mt_cars.csv')
 
 print(base.head())
 print(base.shape)
