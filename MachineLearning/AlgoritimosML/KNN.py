@@ -53,7 +53,7 @@ for classe in np.unique(y):
     plt.scatter(X[y == classe, 0], X[y == classe, 1], label=f'{classe} cilindros')
 
 # Plotando o novo ponto previsto
-plt.scatter(new_data[0][0], new_data[0][1], color='black', marker='X', s=200, label='Novo dado (previsto)')
+plt.scatter(new_data[0][0], new_data[0][1], color='black', marker='X', s=200, label=f'Novo dado (previsto): {previsao[0]}')
 
 # Título e legendas
 plt.title('Classificação com KNN - Previsão de cilindros')
